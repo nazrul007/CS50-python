@@ -18,11 +18,21 @@
 
 
 def convert(what:str) -> str: 
+    """Converts smiling face and frowning face to emoji. 
+
+    Args:
+        what (str): A string that includes smiling face such as :) or frowning face such as :(
+
+    Returns:
+        str: :) is replaced by 🙂 and :( is replaced by 🙁
+    """    
     
     smilingFace = what.replace(":)", "🙂")
     return smilingFace.replace(":(", "🙁")
 
 def main():
+    """main driver function. Asks for user inputs and then prints out the same line with emoji. 
+    """    
     #userInput = str( input("You may convert emoticons to emoji automatically here: ") ) 
     userInput = str( input() )
 
