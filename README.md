@@ -1,4 +1,4 @@
-# python
+# CS50-python
 Programming with Python
 
 For edx.org class: CS50 Introduction to Programming with Python by malan@harvard.edu 
