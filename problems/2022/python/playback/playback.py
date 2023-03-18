@@ -10,10 +10,20 @@
 # Recall that a str comes with quite a few methods, per docs.python.org/3/library/stdtypes.html#string-methods.
 
 def replace(what: str) -> str: 
+    """outputs that same input, replacing each space with ...
+
+    Args:
+        what (str): input string 
+
+    Returns:
+        str: input string replaced each space with ...
+    """    
      
     return what.replace(' ', '...')
 
 def main(): 
+    """main driver function that prompts the user for input and shows the playback string 
+    """    
     userInput = str( input("What would you like me to repeat? ") )
     print (replace(userInput))
 
