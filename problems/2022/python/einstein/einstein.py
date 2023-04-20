@@ -1,4 +1,6 @@
 """
+Problem description: https://cs50.harvard.edu/python/2022/psets/0/einstein/
+
 Even if you haven’t studied physics (recently or ever!), you might have heard that E=MC^2 wherein 
   E represents energy (measured in Joules), 
   m represents mass (measured in kilograms), and 
